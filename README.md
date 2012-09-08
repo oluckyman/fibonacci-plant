@@ -24,11 +24,26 @@ Designing this model instead of assigning explicit Golden Angle between the two 
 
 Launching this model you will observe how the angle between the successive leaves gets close to the Golden Angle.
 
+### Launching
+The program requires [Processing 2.0](http://processing.org) or later.  
+In the Processing app click `open` and navigate to `fibonacci_plant\fibonacci_plant.pde`  
+Then click the `run` button.
+
+### UI
+The blue circle in the center is a stem cortex.  
+A new leaf emerges when the previous one has grown away from the stem.  
+A yellow dot on the stem is marking the direction of growth of the consequent leaf.  
+The red colored list on your left shows the angles between the leafs. The proportion in relation to the Golden Angle is shown in brackets.
+After a while the parastichies emerge: five yellow and eight blue.
+
+### Controls
+*left mouse* - hold to pause, drag to move.  
+*right mouse* - click (and hold) to zoom (top of the screen to zoom in; bottom of the screen to zoom out).  
 
 * * *
 
 fibonacci-plant (rus)
-===============
+=====================
 ![Fibonacci plant screenshot](https://raw.github.com/oluckyman/fibonacci-plant/master/screen_shot.png)
 
 В этой модели демонстрируется как растущие листья образуют между собой Золотой Угол (~137.508°).  
@@ -52,3 +67,19 @@ fibonacci-plant (rus)
  - Следующий лист выбирает направление роста таким, чтоб быть максимально далеко от уже существующих.
  
 Запустив эту модель можно убедиться, что угол между соседними листьями близок к Золотому Углу.
+
+### Запуск
+Для работы требуется [Processing 2.0](http://processing.org) или выше.  
+В окне приложения нажмите кнопку `open` и выберете файл `fibonacci_plant\fibonacci_plant.pde`.  
+Нажмите `run`.  
+
+### UI
+В центре кружком синего цвета обозначен стебель.  
+Новый лист появляется, когда предыдущий выходит за пределы стебля.  
+Жёлтой точкой на стебле помечается направление роста следующего листа.  
+Слева красным цветом ведётся список углов между листьями. В скобках указано процентное соотношение с Золотым Углом.  
+Через некоторое время начинают появляться спирали (parastichies). 5 жёлтых и 8 голубых.
+
+### Управление
+*левая кнопка мыши* - нажмите и держите, чтоб включить паузу; нажмите и тащите, чтоб  перемещаться.
+*правая кнопка мыши* - нажмите, чтоб масштабировать (сверху экрана для увеличения, снизу экрана для уменьшения).
