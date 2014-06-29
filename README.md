@@ -10,17 +10,19 @@ When sprouting the leaves of the plant sets the Golden Angle (~137.508°) betwee
 Spiral phyllotaxis is observed in the heads of sunflowers, in pine-cones and pineapples, and in a variety of other plants.
 
 ## Fibonacci phyllotaxis
-The number of visible spirals (parastichies) in spiral arrangements are most often Fibonacci numbers (1, 1, 2, 3, 5, 8, 13, 21 ...) and the angle between successive leaves is close to the Golden Angle - about 137.508°. This frequent type of pattern is called **Fibonacci phyllotaxis**.
+The number of visible spirals (parastichies) in spiral arrangements are most often Fibonacci numbers (1, 1, 2, 3, 5, 8, 13, 21 ...) and the angle between successive leaves is close to the Golden Angle - about 137.508°.  
+This frequent type of pattern is called **Fibonacci phyllotaxis**.
 
 ## Why Fibonacci phyllotaxis is so spread?
 The Nature doesn't know anything about Fibonacci, mathematics or angles. Instead, she knows some simple principle due to which the sprouts of a plant get the maximum of light and rain and arrange the Golden Angle between the leaves.
 
 ## About this model
 My intention was to reveal how the Fibonacci phyllotaxis emerges naturally during the simulation of the growth of a plant.  
-Designing this model instead of assigning explicit Golden Angle between the two new leaves I had set the following principle:
- - A new leaf is formed periodically in the center of the stem (with some indeterminacy).
- - Once it is formed, the leaf moves away from the center arranging a certain angle.
- - The next leaf choses his direction of growth in a way to be as far as possible from the existing leaves.
+Designing this model instead of assigning explicit Golden Angle between the two new leaves I had set the following principle:  
+
+* A new leaf is formed periodically in the center of the stem (with some indeterminacy).  
+* Once it is formed, the leaf moves away from the center arranging a certain angle.  
+* The next leaf choses his direction of growth in a way to be as far as possible from the existing leaves.  
 
 Launching this model you will observe how the angle between the successive leaves gets close to the Golden Angle.
 
@@ -33,7 +35,7 @@ Then click the `run` button.
 The blue circle in the center is a stem cortex.  
 A new leaf emerges when the previous one has grown away from the stem.  
 A yellow dot on the stem is marking the direction of growth of the consequent leaf.  
-The red colored list on your left shows the angles between the leafs. The proportion in relation to the Golden Angle is shown in brackets.
+The red colored list on your left shows the angles between the leafs. The proportion in relation to the Golden Angle is shown in brackets.  
 After a while the parastichies emerge: five yellow and eight blue.
 
 ### Controls
@@ -54,14 +56,16 @@ fibonacci-plant (rus)
 Винтовой филлотаксис можно наблюдать на цветках подсолнуха, на шишках, на ананасах и на множестве других растений.
 
 ## Филлотаксис и последовательность Фибоначчи
-При винтовом расположении лепестков или семечек в их узоре можно обнаружить спирали (parastichies). Чаще всего количество этих спиралей является числом из последовательности Фибоначчи (1, 1, 2, 3, 5, 8, 13, 21 ...). А угол между соседними лепестками близок к Золотому Углу - около 137.508°. Такой тип узоров встречается довольно часто и называется **Fibonacci phyllotaxis**.
+При винтовом расположении лепестков или семечек в их узоре можно обнаружить спирали (parastichies). Чаще всего количество этих спиралей является числом из последовательности Фибоначчи (1, 1, 2, 3, 5, 8, 13, 21 ...). А угол между соседними лепестками близок к Золотому Углу - около 137.508°.  
+Такой тип узоров встречается довольно часто и называется **Fibonacci phyllotaxis**.
 
 ## Почему Fibonacci phyllotaxis так распространён?
 Природа ничего не знает о Фибоначчи, математике и углах. Зато она знает о том, что чем больше листья получают света и дождя, тем лучше. Значит должен быть какой-то простой принцип, подчиняясь которому, растения получают максимальное количество света и при этом образуют Золотой Угол между своими листьями.
 
 ## Об этой модели
 Моей целью было обнаружить как Fibonacci phyllotaxis проявляется сам при симуляции роста растения.  
-Создавая эту модель вместо явного указания золотого угла между новыми листьями, я задал следующие принципы:
+Создавая эту модель вместо явного указания золотого угла между новыми листьями, я задал следующие принципы:  
+
  - С заданной периодичностью в центре стебля (с небольшой погрешностью) появляется новый лист;
  - Как только лист появился, он начинает двигаться из центра под заданным углом;
  - Следующий лист выбирает направление роста таким, чтоб быть максимально далеко от уже существующих.
